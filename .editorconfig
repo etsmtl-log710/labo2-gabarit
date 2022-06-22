@@ -1,0 +1,18 @@
+root = true
+
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+[{.clang-format,.clang-tidy}]
+indent_style = space
+indent_size = 2
+
+[*.{c,h}]
+indent_style = space
+indent_size = 4
+
+[{Makefile,*.mk}]
+indent_style = tab
+indent_size = 4

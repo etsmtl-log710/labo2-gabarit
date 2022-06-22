@@ -1,0 +1,334 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FCFS small.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/small.txt",
+                "-s",
+                "f",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "FCFS medium.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/medium.txt",
+                "-s",
+                "f",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "FCFS large.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/large.txt",
+                "-s",
+                "f",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "PRIORITY small.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/small.txt",
+                "-s",
+                "p",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "PRIORITY medium.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/medium.txt",
+                "-s",
+                "p",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "PRIORITY large.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/large.txt",
+                "-s",
+                "p",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "HYBRID small.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/small.txt",
+                "-s",
+                "h",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "HYBRID medium.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/medium.txt",
+                "-s",
+                "h",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "HYBRID large.txt",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Log710Schedulers",
+            "args": [
+                "-f",
+                "./data/large.txt",
+                "-s",
+                "h",
+                "-q",
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] Log710Schedulers",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "TEST all",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/Log710Tests",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "CK_FORK",
+                    "value": "no"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] target/Log710Tests",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "TEST queue",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/Log710Tests",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "CK_RUN_SUITE",
+                    "value": "queue"
+                },
+                {
+                    "name": "CK_FORK",
+                    "value": "no"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] target/Log710Tests",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "TEST resources",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/Log710Tests",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "CK_RUN_SUITE",
+                    "value": "resources"
+                },
+                {
+                    "name": "CK_FORK",
+                    "value": "no"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "[make] target/Log710Tests",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
